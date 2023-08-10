@@ -17,15 +17,13 @@ In your terminal on Mac OS X/Linux:
     $sudo npm install -g webghoul-react-bracket-tournament
 ```
 
-## Docs
+## Examples
+<img align="left"  alt="example 1" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/d7a67cd3-d168-4ebf-bd95-009aa9f4013f"/>
+<img align="right"  alt="example 2" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/f20d1290-f385-421f-b64b-fd762687f136"/>
 
-- [Overview of Cordova]
-- [Create your first Cordova app] guide
-- [Full reference docs for Cordova CLI][Reference docs] has details of commands to add platforms, add plugins, build, package, and sign your HTML, JS apps.
-- Cordova allows you to build apps for a number of platforms. Learn more about our [Supported platforms].
-- [Project directory structure] documents the details of the directory structure created by Cordova CLI.
+## Contributing!
 
-## Contributing
+
 
 Cordova is an open source Apache project and contributors are needed to keep this project moving forward. Learn more on
 [how to contribute on our website][contribute].
