@@ -1,7 +1,7 @@
 
 # webGhoul React Bracket Tournament
 
-[![NPM](https://nodei.co/npm/cordova.png)](https://nodei.co/npm/cordova/)
+[![NPM](https://nodei.co/npm/webGhoul.png)](https://nodei.co/npm/webGhoul/)
 
 [![Node CI](https://github.com/apache/cordova-cli/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-cli/actions?query=branch%3Amaster)
 [![codecov.io](https://codecov.io/github/apache/cordova-cli/coverage.svg?branch=master)](https://codecov.io/github/apache/cordova-cli?branch=master)
