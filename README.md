@@ -69,7 +69,7 @@ function App() {
 
 export default App;
 ```
-<img width="75%" align="center" alt="example 1" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/d7a67cd3-d168-4ebf-bd95-009aa9f4013f"/>
+<img width="75%" align="center" alt="example 1" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/1f8fa894-b11e-4a6f-b5b3-465fce5622bb"/>
 </p>
 <h4>📌Example 2</h4>
 <p align="center">
@@ -139,14 +139,11 @@ function App() {
 }
 
 export default App;
-
 ```
 
 <img width="75%"   alt="example 2" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/f20d1290-f385-421f-b64b-fd762687f136"/>
 </p>
 ## Contributing!
-
-
 
 Cordova is an open source Apache project and contributors are needed to keep this project moving forward. Learn more on
 [how to contribute on our website][contribute].
