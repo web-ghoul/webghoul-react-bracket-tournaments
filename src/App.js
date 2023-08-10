@@ -1,8 +1,8 @@
 import "./index.css"
 import avatarImg from "./knight.png"
 import loadingImg from "./loading.png"
-// import Bracket from "webghoul-react-bracket-tournament"
-import Bracket from "./Bracket/Bracket"
+import Bracket from "webghoul-react-bracket-tournaments"
+// import Bracket from "./Bracket/Bracket"
 
 function App() {
   const data=[

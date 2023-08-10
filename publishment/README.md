@@ -27,8 +27,7 @@ In your terminal on Mac OS X/Linux:
 import "./index.css"
 import avatarImg from "./knight.png"
 import loadingImg from "./loading.png"
-// import Bracket from "webghoul-react-bracket-tournament"
-import Bracket from "./Bracket/Bracket"
+import Bracket from "webghoul-react-bracket-tournaments"
 
 function App() {
   const data=[
@@ -89,8 +88,7 @@ export default App;
 import "./index.css"
 import avatarImg from "./knight.png"
 import loadingImg from "./loading.png"
-// import Bracket from "webghoul-react-bracket-tournament"
-import Bracket from "./Bracket/Bracket"
+import Bracket from "webghoul-react-bracket-tournaments"
 
 function App() {
   const data=[

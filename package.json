@@ -10,10 +10,10 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "webghoul-react-bracket-tournament": "^1.0.0"
+    "webghoul-react-bracket-tournaments": "^2.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3002 & react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
