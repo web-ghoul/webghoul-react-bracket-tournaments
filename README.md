@@ -19,9 +19,9 @@ In your terminal on Mac OS X/Linux:
 
 ## Examples
 <h4>📌Example 1</h4>
-<img width="50%" alt="example 1" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/d7a67cd3-d168-4ebf-bd95-009aa9f4013f"/>
+<img width="75%" align="center" alt="example 1" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/d7a67cd3-d168-4ebf-bd95-009aa9f4013f"/>
 <h4>📌Example 2</h4>
-<img width="50%"  alt="example 2" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/f20d1290-f385-421f-b64b-fd762687f136"/>
+<img width="75%" align="center"  alt="example 2" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/f20d1290-f385-421f-b64b-fd762687f136"/>
 ## Contributing!
 
 
