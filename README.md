@@ -20,7 +20,7 @@ In your terminal on Mac OS X/Linux:
 ## Examples
 <p align="left">
 <h4>📌Example 1</h4>
-<img align="left"  alt="example 1" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/d7a67cd3-d168-4ebf-bd95-009aa9f4013f"/>
+<img align="left" width="50%" alt="example 1" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/d7a67cd3-d168-4ebf-bd95-009aa9f4013f"/>
 </p>
 <p align="right">
 <h4>📌Example 2</h4>
