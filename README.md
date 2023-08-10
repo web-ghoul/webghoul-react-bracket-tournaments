@@ -1,5 +1,5 @@
 
-# webGhoul React Bracket Tournament
+# webGhoul React Bracket Tournament💯
 
 [![NPM](https://nodei.co/npm/webghoul-react-bracket-tournament.png)](https://nodei.co/npm/webghoul-react-bracket-tournament/)
 
