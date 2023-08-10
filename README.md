@@ -1,22 +1,22 @@
 
-# webGhoul React Bracket Tournament💯
+# webGhoul React Bracket Tournaments💯
 
-[![NPM](https://nodei.co/npm/webghoul-react-bracket-tournament.png)](https://nodei.co/npm/webghoul-react-bracket-tournament/)
+[![NPM](https://nodei.co/npm/webghoul-react-bracket-tournaments.png)](https://nodei.co/npm/webghoul-react-bracket-tournaments/)
 <br/>
 
-[![npm version](https://img.shields.io/npm/v/webghoul-react-bracket-tournament.svg?style=flat-square)](https://www.npmjs.com/package/webghoul-react-bracket-tournament)
+[![npm version](https://img.shields.io/npm/v/webghoul-react-bracket-tournaments.svg?style=flat-square)](https://www.npmjs.com/package/webghoul-react-bracket-tournaments)
 ## Installation
 
 In your command-line on Windows:
 
 ```bash
-    c:\> npm i webghoul-react-bracket-tournament
+    c:\> npm i webghoul-react-bracket-tournaments
 ```
 
 In your terminal on Mac OS X/Linux:
 
 ```bash
-    $sudo npm install -g webghoul-react-bracket-tournament
+    $sudo npm install -g webghoul-react-bracket-tournaments
 ```
 
 ## Examples
@@ -80,7 +80,7 @@ function App() {
 
 export default App;
 ```
-<img width="75%" align="center" alt="example 1" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/1f8fa894-b11e-4a6f-b5b3-465fce5622bb"/>
+<img width="75%" align="center" alt="example 1" src="https://github.com/web-ghoul/webghoul-react-bracket-tournaments/assets/84246173/1f8fa894-b11e-4a6f-b5b3-465fce5622bb"/>
 </p>
 <h4>📌Example 2</h4>
 <p align="center">
@@ -152,7 +152,7 @@ function App() {
 export default App;
 ```
 
-<img width="75%"   alt="example 2" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/2c003820-47e8-4cbb-9570-eb6feb8c2340"/>
+<img width="75%"   alt="example 2" src="https://github.com/web-ghoul/webghoul-react-bracket-tournaments/assets/84246173/2c003820-47e8-4cbb-9570-eb6feb8c2340"/>
 </p>
 
 ## 🛒Parameters
