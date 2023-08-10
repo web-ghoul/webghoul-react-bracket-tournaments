@@ -23,8 +23,9 @@ In your terminal on Mac OS X/Linux:
 <h4>📌Example 1</h4>
 <p align="center">
 
-<p align="left" width="20%">
-    ```
+<p align="left" >
+    
+```
 import "./index.css"
 import avatarImg from "./knight.png"
 import loadingImg from "./loading.png"
