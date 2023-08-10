@@ -23,7 +23,6 @@ In your terminal on Mac OS X/Linux:
 <h4>📌Example 1</h4>
 <p align="center">
 
-<p align="left" width="20%">
     
 ```
 import "./index.css"
@@ -70,12 +69,80 @@ function App() {
 
 export default App;
 ```
-</p>
 <img width="75%" align="center" alt="example 1" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/d7a67cd3-d168-4ebf-bd95-009aa9f4013f"/>
 </p>
 <h4>📌Example 2</h4>
 <p align="center">
-    <img width="75%"   alt="example 2" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/f20d1290-f385-421f-b64b-fd762687f136"/>
+    
+```
+import "./index.css"
+import avatarImg from "./knight.png"
+import loadingImg from "./loading.png"
+// import Bracket from "webghoul-react-bracket-tournament"
+import Bracket from "./Bracket/Bracket"
+
+function App() {
+  const data=[
+    [
+      {
+        player1:"webGhoul",
+        player2:"Amr006",
+        avatar1:avatarImg,
+        avatar2:avatarImg,
+        matchLink:"",
+        handleAbortMatch:()=>{},
+        handleFinishMatch:()=>{},
+        handlePlayer1Clicked:()=>{},
+        handlePlayer2Clicked:()=>{}
+      },
+      {
+        player1:"webGhoul1",
+        player2:"Amr007",
+        avatar1:avatarImg,
+        avatar2:avatarImg,
+        matchLink:"",
+        handleAbortMatch:()=>{},
+        handleFinishMatch:()=>{},
+        handlePlayer1Clicked:()=>{},
+        handlePlayer2Clicked:()=>{}
+      },
+      {
+        player1:"webGhoul2",
+        player2:"Amr008",
+        avatar1:avatarImg,
+        avatar2:avatarImg,
+        matchLink:"",
+        handleAbortMatch:()=>{},
+        handleFinishMatch:()=>{},
+        handlePlayer1Clicked:()=>{},
+        handlePlayer2Clicked:()=>{}
+      },
+      {
+        player1:"webGhoul3",
+        player2:"Amr009",
+        avatar1:avatarImg,
+        avatar2:avatarImg,
+        matchLink:"",
+        handleAbortMatch:()=>{},
+        handleFinishMatch:()=>{},
+        handlePlayer1Clicked:()=>{},
+        handlePlayer2Clicked:()=>{}
+      }
+    ]
+  ]
+
+  return (
+    <div className="App">
+      <Bracket nodes={data} loadingImg={loadingImg}/>
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+<img width="75%"   alt="example 2" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/f20d1290-f385-421f-b64b-fd762687f136"/>
 </p>
 ## Contributing!
 
