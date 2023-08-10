@@ -156,3 +156,7 @@ export default App;
 </p>
 
 ## 🛒Parameters
+| Props  | value |
+| ------------- | ------------- |
+| nodes | array of arrays , each array contains matches of a round  |
+| loadingImg  | loading image for the matches that you don't set yet in nodes  |
