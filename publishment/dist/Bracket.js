@@ -3,11 +3,11 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = void 0;
+exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 var _Round = _interopRequireDefault(require("./Round"));
 require("./Bracket.css");
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 //Component
 
 //Style
@@ -45,13 +45,13 @@ var Bracket = function Bracket(_ref) {
     c = c / 2;
     return 0;
   });
-  return /*#__PURE__*/_react["default"].createElement("div", {
+  return /*#__PURE__*/_react.default.createElement("div", {
     className: "bracket"
-  }, isLoading ? /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement("h3", {
+  }, isLoading ? /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("h3", {
     style: {
       textAlign: "center"
     }
-  }, "Loading...")) : /*#__PURE__*/_react["default"].createElement("div", {
+  }, "Loading...")) : /*#__PURE__*/_react.default.createElement("div", {
     style: {
       height: "".concat(roundHeight, "px")
     },
@@ -61,7 +61,7 @@ var Bracket = function Bracket(_ref) {
       console.log(pad);
       pad = calcPadding(pad);
     }
-    return /*#__PURE__*/_react["default"].createElement(_Round["default"], {
+    return /*#__PURE__*/_react.default.createElement(_Round.default, {
       loadingImg: loadingImg,
       key: i,
       max: max,
@@ -73,4 +73,4 @@ var Bracket = function Bracket(_ref) {
   })));
 };
 var _default = Bracket;
-exports["default"] = _default;
+exports.default = _default;

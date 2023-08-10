@@ -1,6 +1,6 @@
 {
   "name": "webghoul-react-bracket-tournament",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "package to draw bracket of tournament with react.js",
   "main": "dist/Bracket.js",
   "scripts": {
@@ -16,6 +16,10 @@
     "webGhoul",
     "chess"
   ],
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/web-ghoul/webghoul-react-bracket-tournament"
+  },
   "author": "webGhoul",
   "license": "ISC",
   "dependencies": {

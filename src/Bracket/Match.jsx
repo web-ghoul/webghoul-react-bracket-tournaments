@@ -31,18 +31,18 @@ const Match = ({waiting1,waiting2,loadingImg , match , last,dir ,h}) => {
                 {
                   match.hasOwnProperty("matchLink")&&(
                     <a target="_blank" rel="noreferrer" href={match.gameLink}>
-                      <button className={`match_button`}>Match</button>
+                      <button className='match'>Match</button>
                     </a>
                   )
                 }
                 {
                   match.hasOwnProperty("handleAbortMatch")&&(
-                    <button onClick={match.handleAbortMatch}>Abort</button>
+                    <button onClick={match.handleAbortMatch} className='abort'>Abort</button>
                   )
                 }
                 {
                   match.hasOwnProperty("handleFinishMatch") && (
-                    <button onClick={match.handleFinishMatch}>Finish</button>
+                    <button onClick={match.handleFinishMatch} className='finish'>Finish</button>
                   )
                 }
               </>
