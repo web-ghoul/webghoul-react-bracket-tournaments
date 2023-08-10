@@ -2,7 +2,7 @@
 # webGhoul React Bracket Tournament💯
 
 [![NPM](https://nodei.co/npm/webghoul-react-bracket-tournament.png)](https://nodei.co/npm/webghoul-react-bracket-tournament/)
-
+<br/>
 
 [![npm version](https://img.shields.io/npm/v/webghoul-react-bracket-tournament.svg?style=flat-square)](https://www.npmjs.com/package/webghoul-react-bracket-tournament)
 ## Installation
