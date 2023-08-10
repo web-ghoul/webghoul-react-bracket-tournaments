@@ -23,7 +23,7 @@ In your terminal on Mac OS X/Linux:
 <h4>📌Example 1</h4>
 <p align="center">
 
-<p align="left" >
+<p align="left" width="20%">
     
 ```
 import "./index.css"
