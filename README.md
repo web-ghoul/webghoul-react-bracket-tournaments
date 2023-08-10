@@ -23,7 +23,6 @@ In your terminal on Mac OS X/Linux:
 <h4>📌Example 1</h4>
 <p align="center">
 
-    
 ```
 import "./index.css"
 import avatarImg from "./knight.png"
@@ -153,7 +152,7 @@ function App() {
 export default App;
 ```
 
-<img width="75%"   alt="example 2" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/f20d1290-f385-421f-b64b-fd762687f136"/>
+<img width="75%"   alt="example 2" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/2c003820-47e8-4cbb-9570-eb6feb8c2340"/>
 </p>
 ## Contributing!
 
