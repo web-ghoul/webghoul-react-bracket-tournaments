@@ -3,40 +3,18 @@
 
 [![NPM](https://nodei.co/npm/webghoul-react-bracket-tournament.png)](https://nodei.co/npm/webghoul-react-bracket-tournament/)
 
-[![Node CI](https://github.com/apache/webghoul-react-bracket-tournament/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/webghoul-react-bracket-tournament/actions?query=branch%3Amaster)
-[![codecov.io](https://codecov.io/github/apache/webghoul-react-bracket-tournament/coverage.svg?branch=master)](https://codecov.io/github/apache/webghoul-react-bracket-tournament?branch=master)
-
-> The command line tool to build, deploy and manage [Cordova](https://cordova.apache.org)-based applications.
-
-[Apache Cordova](https://cordova.apache.org) allows for building native mobile applications using HTML, CSS and JavaScript.
-This tool helps with management of multi-platform Cordova applications as well as Cordova plugin integration.
-
 ## Installation
 
 In your command-line on Windows:
 
 ```bash
-    c:\> npm install -g cordova
+    c:\> npm i webghoul-react-bracket-tournament
 ```
 
 In your terminal on Mac OS X/Linux:
 
 ```bash
-    $sudo npm install -g cordova
-```
-
-## Creating a new Cordova project
-
-This simple example demonstrates how Cordova CLI can be used to create a `myApp` project with the `camera` plugin and run it for `android` platform:
-
-```bash
-    cordova create myApp com.myCompany.myApp myApp
-    cd myApp
-    cordova plugin add cordova-plugin-camera --save
-    cordova platform add android --save
-    cordova requirements android
-    cordova build android --verbose
-    cordova run android
+    $sudo npm install -g webghoul-react-bracket-tournament
 ```
 
 ## Docs
