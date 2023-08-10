@@ -1,0 +1,27 @@
+{
+  "name": "webghoul-react-bracket-tournament",
+  "version": "1.0.0",
+  "description": "package to draw bracket of tournament with react.js",
+  "main": "dist/Bracket.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist"
+  },
+  "keywords":[
+    "react",
+    "tournament",
+    "bracket",
+    "bracket-tournament",
+    "bracket tournament",
+    "brackets",
+    "webGhoul",
+    "chess"
+  ],
+  "author": "webGhoul",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5"
+  }
+}

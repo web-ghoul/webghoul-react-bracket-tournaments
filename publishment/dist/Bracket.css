@@ -1,0 +1,232 @@
+.bracket{
+    overflow:auto;
+    max-width: 80vw;
+    max-height: 80vh;
+    background-color: #fff;
+    padding: 0 20px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.rounds{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    width: -moz-fit-content;
+    width:fit-content;
+}
+
+/* Round */
+
+.round{
+    position: relative;
+    transition: all ease-in-out .3s;
+    padding: 50px 0px 20px 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.matches{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.round:hover{
+    transform: scale(1.001);
+}
+
+.round .round_number{
+    position: absolute;
+    top: 30px;
+    padding: 10px;
+    background-color: #037ef3;
+    width: 220px;
+    border-radius: 6px;
+    text-align: center;
+    transition:  all ease-in-out .3s;
+    color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+/* Match */
+.match_box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last{
+    margin: 0;
+}
+
+.match{
+    width: 220px;
+    height: 110px;
+    overflow: hidden;
+    position: relative;
+    display: grid ;
+    align-items: center;
+    justify-content: stretch;
+    z-index: 1;
+    background-color: #ddd;
+    border-radius: 6px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+.match .divider{
+    height: 4px;
+    background-color:#037ef3;
+    border: none;
+    width: 100%;
+    margin: 0;
+}
+
+.match .noDivider{
+    height: 4px;
+    background-color: #eee;
+    border: none;
+    margin: 0;
+}
+
+.player{
+    gap: 8px;
+    height: 53px;
+    padding: 0 10px;
+    transition:  all ease-in-out .3s;
+    display: flex ;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ddd;
+}
+
+.player img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.me{
+    background-color:#037ef3;
+}
+
+.player:hover{
+    background-color:#037ef3;
+    cursor: pointer;
+    color: #fff;
+}
+
+.player_name{
+    font-size: 16px ;
+}
+
+.buttons{
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    display: grid ;
+    align-items: stretch;
+    justify-content: flex-end ;
+    gap: 5px;
+}
+
+.buttons button{
+    cursor: pointer ;
+    border-radius: 0px ;
+}
+
+.buttons a{
+    cursor: pointer ;
+}
+
+.buttons  > a:first-child button{
+    background-color: #037ef3;
+}
+
+.buttons  > button:first-of-type{
+    background-color: orange ;
+}
+
+.buttons > button:last-child{
+    background-color:red ;
+}
+
+.wait_match_box .player:hover{
+    background-color:#999;
+    cursor:auto;
+}
+
+/* arrow */
+.arrow{
+    position: absolute;
+    right: -155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curve{
+    width: 80px;
+}
+
+.top .curve_1{
+    transform: translateX(2px) translateY(-5px);
+    border-top: 4px solid #037ef3 ;
+    border-right: 4px solid #037ef3 ;
+    border-top-right-radius: 12px ;
+    transition:  all ease-in-out .3s;
+}
+
+.top .curve_2{
+    transform: translateX(-2px) translateY(5px);
+    border-bottom: 4px solid #037ef3 ;
+    border-left: 4px solid #037ef3 ;
+    border-bottom-left-radius: 12px ;
+    transition: all ease-in-out .3s;
+}
+
+
+.bottom .curve_1{
+    transform: translateX(2px) translateY(5px);
+    border-bottom: 4px solid #037ef3 ;
+    border-right: 4px solid #037ef3 ;
+    transition: all ease-in-out .3s;
+    border-bottom-right-radius: 12px ;
+}
+
+.bottom .curve_2{
+    transform: translateX(-2px) translateY(-5px);
+    border-top: 4px solid #037ef3 ;
+    border-left: 4px solid #037ef3;
+    transition: all ease-in-out .3s;
+    border-top-left-radius: 12px ;
+}
+
+.wait_arrow_top .curve_1{
+    border-top: 4px solid #eee ;
+    border-right: 4px solid #eee ;
+    border-top-right-radius: 12px ;
+}
+
+.wait_arrow_top .curve_2{
+    border-bottom: 4px solid #eee ;
+    border-left: 4px solid #eee ;
+    border-bottom-left-radius: 12px ;
+}
+
+.wait_arrow_bottom .curve_1{
+    border-bottom: 4px solid #eee ;
+    border-right: 4px solid #eee ;
+    border-bottom-right-radius: 12px ;
+}
+
+.wait_arrow_bottom .curve_2{
+    border-top: 4px solid #eee ;
+    border-left: 4px solid #eee ;
+    border-top-left-radius: 12px ;
+}
