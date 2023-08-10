@@ -3,8 +3,8 @@
 
 [![NPM](https://nodei.co/npm/webghoul-react-bracket-tournament.png)](https://nodei.co/npm/webghoul-react-bracket-tournament/)
 
-[![Node CI](https://github.com/apache/cordova-cli/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-cli/actions?query=branch%3Amaster)
-[![codecov.io](https://codecov.io/github/apache/cordova-cli/coverage.svg?branch=master)](https://codecov.io/github/apache/cordova-cli?branch=master)
+[![Node CI](https://github.com/apache/webghoul-react-bracket-tournament/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/webghoul-react-bracket-tournament/actions?query=branch%3Amaster)
+[![codecov.io](https://codecov.io/github/apache/webghoul-react-bracket-tournament/coverage.svg?branch=master)](https://codecov.io/github/apache/webghoul-react-bracket-tournament?branch=master)
 
 > The command line tool to build, deploy and manage [Cordova](https://cordova.apache.org)-based applications.
 
