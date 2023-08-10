@@ -20,6 +20,52 @@ In your terminal on Mac OS X/Linux:
 ## Examples
 <h4>📌Example 1</h4>
 <p align="center">
+    <pre>
+        import "./index.css"
+import avatarImg from "./knight.png"
+import loadingImg from "./loading.png"
+import Bracket from "webghoul-react-bracket-tournament"
+
+function App() {
+  const data=[
+    [
+      {
+        player1:"webGhoul",
+        player2:"Amr006",
+        avatar1:avatarImg,
+        avatar2:avatarImg,
+      },
+      {
+        player1:"webGhoul",
+        player2:"Amr006",
+        avatar1:avatarImg,
+        avatar2:avatarImg
+      },
+      {
+        player1:"webGhoul",
+        player2:"Amr006",
+        avatar1:avatarImg,
+        avatar2:avatarImg,
+      },
+      {
+        player1:"webGhoul",
+        player2:"Amr006",
+        avatar1:avatarImg,
+        avatar2:avatarImg
+      }
+    ],
+  ]
+
+  return (
+    <div className="App">
+      <Bracket nodes={data} loadingImg={loadingImg}/>
+    </div>
+  );
+}
+
+export default App;
+
+    </pre>
     <img width="75%" align="center" alt="example 1" src="https://github.com/web-ghoul/webghoul-react-bracket-tournament/assets/84246173/d7a67cd3-d168-4ebf-bd95-009aa9f4013f"/>
 </p>
 <h4>📌Example 2</h4>
